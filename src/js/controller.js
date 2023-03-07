@@ -78,6 +78,7 @@ const controlAddrecipe = async function (newRec) {
     addrecipe.handleError(error);
   }
 };
+
 const iniy = function () {
   bookMarkView.addHandler(controlBookmark);
   receiptView.renderHandler(showReceipts);
