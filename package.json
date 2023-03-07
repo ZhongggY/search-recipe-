@@ -1,0 +1,16 @@
+{
+  "name": "profolio",
+  "version": "1.0.0",
+  "description": "receipt of pizza",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "zhongyang",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}
