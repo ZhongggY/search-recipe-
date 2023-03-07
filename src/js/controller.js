@@ -87,5 +87,6 @@ const iniy = function () {
   searchView.addhandler(controlSearchResult);
   paginationView.clickHandler(controlPagination);
   addrecipe.uploadHandler(controlAddrecipe);
+  console.log('new branches');
 };
 iniy();
